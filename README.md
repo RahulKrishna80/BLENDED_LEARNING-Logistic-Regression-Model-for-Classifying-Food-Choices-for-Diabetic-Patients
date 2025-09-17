@@ -1,4 +1,3 @@
-# BLENDED_LEARNING
 # Implementation of Logistic Regression Model for Classifying Food Choices for Diabetic Patients
 
 ## AIM:
@@ -24,12 +23,12 @@ To implement a logistic regression model to classify food items for diabetic pat
 7. Evaluate Model Assess the model’s accuracy and effectiveness on the testing set using performance metrics.
 
 ## Program:
-```
-/*
+```py
+
 Program to implement Logistic Regression for classifying food choices based on nutritional information.
 Developed by: Rahul Krishna S
 RegisterNumber: 212223040162
-*/
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -90,10 +89,13 @@ plt.show()
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/ef865c2e-170c-493d-820a-c154ffb18742)
-![image](https://github.com/user-attachments/assets/13aedafc-c385-4862-aa61-67a5e09258b3)
-![image](https://github.com/user-attachments/assets/ce7f463d-68a5-4a57-b13c-6fe141982ecf)
-![image](https://github.com/user-attachments/assets/827d2374-c126-4436-a448-5ab6488ffb67)
+### Dataset overview and info:
+![Screenshot 2025-05-15 001548](https://github.com/user-attachments/assets/d5e8cdac-d055-48b4-ba1b-e40d5825737a)
+![Screenshot 2025-05-15 001554](https://github.com/user-attachments/assets/c85bd670-0fe9-4295-9149-4dc82d956ef3)
+### Model efficiency:
+![Screenshot 2025-05-15 001619](https://github.com/user-attachments/assets/061ef8ef-40a3-49c6-a9a6-1ee8d969be29)
+### Confusion MATRIX:
+![Screenshot 2025-05-15 001626](https://github.com/user-attachments/assets/0b42cb53-7eb6-4806-9e54-c19042914868)
 
 ## Result:
 Thus, the logistic regression model was successfully implemented to classify food items for diabetic patients based on nutritional information, and the model's performance was evaluated using various performance metrics such as accuracy, precision, and recall.
